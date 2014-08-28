@@ -1,10 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
 
 body {
+	color: rgb(83,83,83);
     font-weight: 100;
     font-family: 'Open Sans', sans-serif;
+
 }
 
+.navbar-default .navbar-brand {
+	color: white; 
+}
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar{
+	background-color: rgb(83,83,83);
+}
 .content{
 	margin-top: 55px;
 }
@@ -17,6 +29,24 @@ body {
 	height: 128px;
 	width: auto;
 	border-radius: 64px;
+}
+
+.events {
+	margin-left: 1%;
+}
+
+.event-title{
+	font-size: 150%;
+}
+.event-details{
+	margin-left: 1%;
+	font-size: 100%;
+}
+
+.title{
+	margin-top: 1%;
+	font-size: 200%;
+	font-weight: 500;
 }
 
 footer{
