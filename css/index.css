@@ -9,6 +9,16 @@ body {
 	margin-top: 55px;
 }
 
+.profile {
+	margin-top: 25px;
+}
+
+.profilepic {
+	height: 128px;
+	width: auto;
+	border-radius: 64px;
+}
+
 footer{
 	text-align: center;
 
