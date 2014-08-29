@@ -21,17 +21,14 @@ body {
 	margin-top: 55px;
 }
 
-.title-contactpg {
+.title-officers-pg {
 	margin-top: 25px;
+	font-size: 18px;
 	text-align: center;
 }
 
 p.centered {
 	text-align: center;
-}
-
-.profile {
-	margin-top: 25px;
 }
 
 .profilepic {
