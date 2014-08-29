@@ -31,6 +31,15 @@ body {
 	border-radius: 64px;
 }
 
+@media screen and (max-width: 1000px) {
+	.events{
+		margin-left: 100px;
+	}
+	.event-details{
+		margin-left: 100px;
+	}
+}
+
 .events {
 	margin-left: 1%;
 }
