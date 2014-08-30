@@ -1,7 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
 
 body {
-	color: rgb(83,83,83);
+	color:white;
+	/*color: rgb(83,83,83);*/
     font-weight: 100;
     font-family: 'Open Sans', sans-serif;
 
@@ -18,7 +19,19 @@ body {
 	background-color: rgb(83,83,83);
 }
 .content{
-	margin-top: 55px;
+	/*margin-top: 55px;*/
+}
+
+.header{
+	height: 400px;
+}
+
+.whois{
+	font-size: 200%;
+}
+
+.subtitle{
+	font-size: 60%;
 }
 
 .profile {
@@ -30,18 +43,83 @@ body {
 	width: auto;
 	border-radius: 64px;
 }
+.img{
+	content: "";
+    position: absolute;
+    overflow: hidden;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.75)),url('../bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1; /* Keep the background behind the content */
+    height: 101%; width: 105%; /* Using Glen Maddern's trick /via @mente */
+    /* don't forget to use the prefixes you need */
+    transform-origin: top right;
+    -webkit-filter: blur(2px);
 
+}
+
+.inner {
+	z-index: -1; /* Keep the background behind the content */
+	position: fixed;
+	left: 50%;
+	margin-top: 10%;
+	transform: translate(-50%);
+/*    top: 50%;
+    transform: translate(-50%, -120%);    
+    -webkit-transform: translate(-50%, -120%);
+    -moz-transform: translate(-50%, -120%);
+    -ms-transform: translate(-50%, -120%);
+*/}
+
+.whoisMobile{
+	text-align: center;
+	color: white;
+	font-size: 200%;
+	visibility: hidden;
+}
 @media screen and (max-width: 1000px) {
-	.events{
-		margin-left: 100px;
+	.img{
+		width: 100%;
 	}
-	.event-details{
-		margin-left: 100px;
+	.whois{
+		visibility: hidden;
 	}
+	.whoisMobile{
+		margin-top: 70%;
+
+		visibility: visible;
+	}
+
+	.e{
+		margin-bottom: 4%;
+	}
+	h1{
+		font-size: 250%;
+		margin-bottom: 10%;
+	}
+	.header{
+		height: 300px;
+	}
+
+}
+
+.officers{
+	color: white;
+	text-align: center;
+	background-color: rgb(73, 73, 73);
+	height: 400px;
+}
+
+h1{
+	font-weight: 100;
+	font-size: 300%;
+	margin-bottom: 10%;
 }
 
 .events {
-	margin-left: 1%;
+	text-align: center;
+	height: 500px;
+	background-color: white;
+	color: rgb(73,73,73);
 }
 
 .event-title{
