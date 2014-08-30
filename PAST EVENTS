@@ -1,0 +1,28 @@
+      <div class="row">
+        <div class = "events">
+          <h1>Past Events</h1>
+          <div class="event">
+            <div class="col-md-4 e">
+              Welcome Back Meeting<br>
+              Location: Davis Second Floor Lounge<br>
+              Date: 9/3<br>
+              Time: 6:30pm
+            </div>
+            <div class="col-md-4 e">
+              Intern Panel/Meet and Greet<br>
+              Location: TBA<br>
+              Date: TBA<br>
+              Time: TBA
+            </div>
+            <div class="col-md-4 e">
+              Facebook Tech Talk with Tom Occhino<br>
+              Location: TBA<br>
+              Date: 9/24<br>
+              Time: 5pm<br>
+              <button type="button" class="btn btn-primary">
+                Watch the Video
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
