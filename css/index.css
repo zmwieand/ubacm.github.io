@@ -49,11 +49,11 @@ p.centered {
 	width: auto;
 	border-radius: 64px;
 }
-.img{
+.img {
 	content: "";
-    position: absolute;
+    position: fixed;
     overflow: hidden;
-	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.75)),url('../bg.jpg') no-repeat center center fixed;
+		background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.75)),url('../bg.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1; /* Keep the background behind the content */
     height: 101%; width: 105%; /* Using Glen Maddern's trick /via @mente */
@@ -113,7 +113,7 @@ p.centered {
 
 }
 
-.officers{
+.officers {
 	color: white;
 	text-align: center;
 	background-color: rgb(73, 73, 73);
