@@ -112,11 +112,11 @@ p.centered {
 
 }
 
-.officers {
+.white-on-gray {
 	color: white;
 	text-align: center;
-	background-color: rgb(73, 73, 73);
-	/*height: 400px;*/
+	background-color: rgb(51, 51, 51);
+	padding-bottom: 25px;
 }
 
 .pic{
@@ -124,7 +124,7 @@ p.centered {
 	margin-bottom: 4%;
 }
 .pastEvents{
-	color: rgb(73, 73, 73);
+	color: rgb(51, 51, 51);
 }
 
 .btn{
@@ -139,11 +139,11 @@ h1{
 	margin-bottom: 4%;
 }
 
-.events {
+.gray-on-white {
 	text-align: center;
-	height: 330px;
 	background-color: white;
-	color: rgb(73,73,73);
+	color: rgb(51,51,51);
+	padding-bottom: 25px;
 }
 
 .event-title{
