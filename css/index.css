@@ -82,17 +82,16 @@ p.centered {
 	font-size: 200%;
 	visibility: hidden;
 }
+
 @media screen and (max-width: 1000px) {
 	.img{
 		width: 100%;
 	}
-	.whois{
+	.whois {
 		visibility: hidden;
 	}
 	.whoisMobile{
-		margin-top: 70%;
-	z-index: -1; /* Keep the background behind the content */
-
+		z-index: -1; /* Keep the background behind the content */
 		visibility: visible;
 	}
 
