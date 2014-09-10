@@ -8,6 +8,15 @@ body {
 
 }
 
+.row {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.mc-field-group {
+	min-width: fill;
+}
+
 .navbar-default .navbar-brand {
 	color: white; 
 }
@@ -98,15 +107,15 @@ p.centered {
 	.e{
 		margin-bottom: 4%;
 	}
-	h1{
+	h1 {
 		font-weight: 100;
 		font-size: 250%;
 		margin-bottom: 10%;
 	}
-	.events{
+	.events {
 		height: 1000px;
 	}
-	.header{
+	.header {
 		height: 300px;
 	}
 
@@ -114,33 +123,32 @@ p.centered {
 
 .white-on-gray {
 	color: white;
-	text-align: center;
 	background-color: rgb(51, 51, 51);
 	padding-bottom: 25px;
 }
 
-.pic{
+.pic {
 	text-align: center;
 	margin-bottom: 4%;
 }
-.pastEvents{
+.pastEvents {
 	color: rgb(51, 51, 51);
 }
 
-.btn{
+.btn {
 	margin-top: 1%;
 	border-radius: 0px;
 }
 
-h1{
+h1 {
 	font-weight: 100;
 	font-size: 300%;
 	margin-top: 4%;
 	margin-bottom: 4%;
+	text-align: center;
 }
 
 .gray-on-white {
-	text-align: center;
 	background-color: white;
 	color: rgb(51,51,51);
 	padding-bottom: 25px;
@@ -154,7 +162,7 @@ h1{
 	font-size: 100%;
 }
 
-.title{
+.title {
 	margin-top: 1%;
 	font-size: 200%;
 	font-weight: 500;
