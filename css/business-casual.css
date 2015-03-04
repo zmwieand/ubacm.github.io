@@ -19,9 +19,8 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
     letter-spacing: 1px;
 }
 
@@ -74,12 +73,11 @@ hr {
   max-height: 300px;
 }
 
-/* end defined by alexander rookey */
-
-.brand-before,
-.brand-name {
-    text-transform: capitalize;
+.h1, h1 {
+    font-size: 48px;
 }
+
+/* end defined by alexander rookey */
 
 .brand-before {
     margin: 15px 0;
@@ -100,7 +98,7 @@ hr {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(219, 219, 219, 0.9);
 }
 
 .intro-text {
@@ -123,7 +121,7 @@ hr {
 
 footer {
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(219, 219, 219, 0.9);
 }
 
 footer p {
@@ -140,9 +138,9 @@ footer p {
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 5em;
-        font-weight: 250;
+        font-weight: 300;
         line-height: normal;
-        color: #fff;
+        color: #333;
     }
 
     .top-divider {
@@ -164,7 +162,7 @@ footer p {
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
-        color: #fff;
+        color: #333;
     }
 
     .navbar {
@@ -182,7 +180,7 @@ footer p {
     .navbar-default {
         border: none;
         background: #fff;
-        background: rgba(255,255,255,0.9);
+        background: rgba(219, 219, 219, 0.9);
     }
 
     .nav>li>a {
