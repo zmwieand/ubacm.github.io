@@ -2,6 +2,18 @@
     padding-top: 50px;
     padding-bottom: 20px;
 }*/
+.contact-link {
+    color: #8CB4D7;
+    text-decoration: underline;
+}
+
+.top-buffer {
+    margin-top: 3em;
+}
+
+.officer-photo {
+    max-height: 20em;
+}
 
 .jumbotron {
     background: linear-gradient(
